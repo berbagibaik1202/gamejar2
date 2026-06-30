@@ -1,0 +1,6 @@
+{
+  "name": "Network Adventure",
+  "description": "Game petualangan edukasi TKJ (Teknik Komputer dan Jaringan) berbasis 2D dengan simulasi interaktif perakitan PC, penyusunan kabel UTP, konfigurasi IP, topologi, dan perintah terminal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

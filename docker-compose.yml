@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    networks:
+      - proxy-net
+    ports:
+      - "3003:3003"
+    environment:
+      - NODE_ENV=production
+      - LOCAL_PORT=3003
+    restart: unless-stopped
+networks:
+  proxy-net:
+    external: true
